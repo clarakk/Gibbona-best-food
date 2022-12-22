@@ -1,0 +1,91 @@
+/* #page-logo a {
+  padding: 15px;
+  color: rgb(9, 4, 54);
+  font-size: 40px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+} */
+/* #page-logo {
+  position: relative
+} */
+
+
+#calamarata {
+    height: 600px;
+    background-image: url('images/calamarata2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+  }
+    
+#interno-calamarata  {
+    width: 50%;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px; 
+    margin: 0 auto;   
+    position: relative;
+    top: 150px; 
+  box-shadow: 2px 2px 3px rgba(56, 55, 55, 0.9);
+  }
+
+#interno-calamarata p {
+    color: white;
+    padding: 15px;
+}
+#interno-calamarata a {
+    color: white;
+      padding: 12px;
+}
+
+#interno-calamarata a:hover {
+    color: #dd2912      
+}
+
+#esempi-piatti {
+text-align: center;
+margin-bottom: 40px;
+}
+#contenitore-piatti {
+  width: 90%;
+  margin: auto;
+  margin-bottom:20px;
+  display: flex;
+  justify-content: space-between;
+}
+.piatti {
+  width: 30%;
+  height: 100%;
+   }
+  .piatti img {
+       height: 250px;
+       width: 100%;
+       border-radius: 8px;
+       object-fit: cover;
+       box-shadow: 3px 3px 8px 5px rgba(0,0,0,0.5);
+  }
+  .piatti p {
+  margin: 10px;
+}
+#esempi-piatti h2 {
+    padding: 12px;
+    margin: 0px 4px;
+    color: rgb(105, 156, 124);
+    font-family: 'Acme', sans-serif; 
+    font-size: 40px;
+    text-align: left;
+    margin-left: 150px;
+    text-shadow: 2px 2px 2px #4E4F4F;
+}
+#esempi-piatti p {
+  text-shadow: 1px 1px 2px #4E4F4F;
+  font-size: 1.5em;
+}
+#esempi-piatti a {
+color: rgb(33, 49, 39);
+}
+#esempi-piatti a:hover {
+color: rgb(105, 156, 124);
+}
+    
